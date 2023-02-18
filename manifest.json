@@ -1,7 +1,7 @@
 {
 	"manifest_version": 3,
 	"name": "CcTimeSave",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "An extension for quickly saving named timestamps",
 	"permissions": [
 		"contextMenus",

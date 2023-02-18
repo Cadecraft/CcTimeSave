@@ -1,5 +1,10 @@
 // Script for CcTimeSave
 
+// Sys defs
+const recentVersion = "0.0.2";
+const editDate = "2023/2/17";
+const morningStar = "[successful]";
+
 // Defs
 var timestamps = [
     {
