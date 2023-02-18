@@ -1,0 +1,27 @@
+{
+	"manifest_version": 3,
+	"name": "CcTimeSave",
+	"version": "0.0.1",
+	"description": "An extension for quickly saving named timestamps",
+	"permissions": [
+		"contextMenus",
+		"tabs",
+		"storage"
+	],
+	"action": {
+		"default_icon": "images/icon.png",
+		"default_popup": "mainmenu.html",
+		"default_title": "CcTimeSave"
+	},
+	"icons": {
+	"16": "images/icon.png",
+	"32": "images/icon.png",
+	"48": "images/icon.png",
+	"128":"images/icon.png"
+	},
+	"content_scripts": [{
+		"matches": ["<all_urls>"],
+		"js": ["content.js"],
+		"run_at": "document_end"
+	}]
+}
